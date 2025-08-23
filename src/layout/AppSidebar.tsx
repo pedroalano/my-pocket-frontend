@@ -39,6 +39,11 @@ const navItems: NavItem[] = [
     path: "/accounts",
   },
   {
+    icon: <BoltIcon />,
+    name: "Categories",
+    path: "/categories",
+  },
+  {
     icon: <CalenderIcon />,
     name: "Calendar",
     path: "/calendar",
