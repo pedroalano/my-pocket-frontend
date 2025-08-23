@@ -91,6 +91,7 @@ Aplicação disponível em:
 ## 🔗 Integração com Backend
 
 Este frontend consome a API do backend **My Pocket (Spring Boot)**.  
+Repositório do backend: [github.com/pedroalano/app-my-pocket](https://github.com/pedroalano/app-my-pocket)
 Principais endpoints utilizados:
 
 - `/auth` → autenticação (login/registro)
