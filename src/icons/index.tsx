@@ -51,11 +51,16 @@ import HorizontaLDots from "./horizontal-dots.svg";
 import ChatIcon from "./chat.svg";
 import MoreDotIcon from "./more-dot.svg";
 import BellIcon from "./bell.svg";
+import BalanceIcon from "./balance.svg";
+import WalletIcon from "./wallet.svg";
+import CoinInIcon from "./coin-in.svg";
+import CoinOutIcon from "./coin-out.svg";
 
 export {
   DownloadIcon,
   BellIcon,
   MoreDotIcon,
+  BalanceIcon,
   FileIcon,
   GridIcon,
   AudioIcon,
@@ -106,4 +111,7 @@ export {
   HorizontaLDots,
   ChevronUpIcon,
   ChatIcon,
+  WalletIcon,
+  CoinInIcon,
+  CoinOutIcon
 };
