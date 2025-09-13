@@ -14,7 +14,7 @@ interface ExpensesTransactionsProps {
   categories: Category[];
 }
 
-export default async function ExpensesTransactions({
+export default function ExpensesTransactions({
   expenses,
   categories,
 }: ExpensesTransactionsProps) {

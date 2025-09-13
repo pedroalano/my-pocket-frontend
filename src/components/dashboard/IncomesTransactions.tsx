@@ -14,7 +14,7 @@ interface IncomesitemsProps {
   categories: Category[];
 }
 
-export default async function Incomesitems({
+export default function Incomesitems({
   incomes,
   categories,
 }: IncomesitemsProps) {

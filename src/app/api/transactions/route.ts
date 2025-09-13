@@ -46,6 +46,7 @@ async function fetchTransactions(filter: TransactionFilter): Promise<Transaction
     description: d.description,
     type: d.type,
     categoryId: d.categoryId,
+    categoryName: d.categoryName,
     status: d.status,
     accountId: d.accountId,
   }));
@@ -75,14 +76,15 @@ async function createTransaction(transaction: Transaction): Promise<Transaction>
   if (!raw || typeof raw !== "object") throw new Error("Unexpected payload shape");
 
   return {
-    id: raw.id,
+    transactionId: raw.id,
     value: raw.value,
     date: raw.date,
     description: raw.description,
-    transactionType: raw.transactionType,
-    category: raw.category,
-    transactionStatus: raw.transactionStatus,
-    Account: raw.Account,
+    type: raw.transactionType,
+    categoryId: raw.categoryId,
+    categoryName: raw.categoryName,
+    status: raw.transactionStatus,
+    accountId: raw.accountId,
   };
 }
 

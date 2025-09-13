@@ -5,6 +5,7 @@ export interface Transaction {
   description: string;
   type : "INCOME" | "EXPENSE";
   categoryId: number;
+  categoryName: string;
   status: "PLANNED" | "ACTUAL";
   accountId: number;
 }
